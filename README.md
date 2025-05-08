@@ -4,8 +4,9 @@
 Adding a repo inside your /etc/pacman.conf
 ```bash
 [flameos-repo]
-SigLevel = Required DatabaseOptional
-Server = https://raw.githubusercontent.com/theflames-presence/$repo/refs/heads/main/$arch
+SigLevel = Optional DatabaseOptional
+#Server = https://raw.githubusercontent.com/theflames-presence/$repo/refs/heads/main/$arch
+Server = https://theflames-presence.github.io/flameos-repo/$arch
 ```
 
 To search packages inside the repo
