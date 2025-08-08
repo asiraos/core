@@ -3,10 +3,10 @@
 # How to "install" flameos-repo
 Adding a repo inside your /etc/pacman.conf
 ```bash
-[flameos-repo]
+[flameos-core]
 SigLevel = Optional DatabaseOptional
-#Server = https://raw.githubusercontent.com/theflames-presence/$repo/refs/heads/main/$arch
-Server = https://theflames-presence.github.io/flameos-repo/$arch
+#Server = https://raw.githubusercontent.com/flame-os/core/refs/heads/main/$arch
+Server = https://flame-os.github.io/core/$arch
 ```
 
 To search packages inside the repo
