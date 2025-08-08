@@ -1,6 +1,6 @@
-# flameos-repo
+# flameos-core
 
-# How to "install" flameos-repo
+## How to "install" flameos-core
 Adding a repo inside your /etc/pacman.conf
 ```bash
 [flameos-core]
