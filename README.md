@@ -5,7 +5,6 @@ Adding a repo inside your /etc/pacman.conf
 ```bash
 [flameos-core]
 SigLevel = Optional DatabaseOptional
-#Server = https://raw.githubusercontent.com/flame-os/core/refs/heads/main/$arch
 Server = https://flame-os.github.io/core/$arch
 ```
 
