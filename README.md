@@ -1,6 +1,6 @@
-# flameos-repo
+# flameos-core
 
-# How to "install" flameos-repo
+## How to "install" flameos-core
 Adding a repo inside your /etc/pacman.conf
 ```bash
 [flameos-core]
@@ -10,7 +10,7 @@ Server = https://flame-os.github.io/core/$arch
 
 To search packages inside the repo
 ``` bash
-pacman -Ss | grep "^flameos-repo"
+pacman -Ss | grep "^flameos-core"
 ```
 
 Then the repositories and update your system with: sudo pacman -Syyu
