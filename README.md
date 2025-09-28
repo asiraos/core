@@ -1,13 +1,3 @@
-# AsiraOS - The Future of Linux
-
-# Copyright (c) 2025 AsiraOS Team
-
-# <https://asiraos.github.io>
-
-# Licensed under GPL-3.0
-
-# asiraos-core
-
 ## How to "install" flameos-core
 
 ### 1. Import the GPG key
@@ -27,7 +17,7 @@ Server = https://asiraos.github.io/core/$arch
 To search packages inside the repo
 
 ```bash
-pacman -Ss | grep "^flameos-core"
+pacman -Ss | grep "^asiraos-core"
 ```
 
 Then the repositories and update your system with: sudo pacman -Syyu
