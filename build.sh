@@ -1,8 +1,4 @@
 #!/bin/bash
-# FlameOS - The Future of Linux
-# Copyright (c) 2024 FlameOS Team
-# https://asiraos.github.io
-# Licensed under GPL-3.0
 
 #/bin/bash
 

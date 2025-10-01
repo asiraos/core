@@ -1,4 +1,4 @@
-## How to "install" flameos-core
+## How to "install" asiraos-core
 
 ### 1. Import the GPG key
 
