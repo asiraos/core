@@ -1,11 +1,5 @@
 ## How to "install" asiraos-core
 
-### 1. Import the GPG key
-
-```bash
-curl -sSL https://asiraos.github.io/core/asiraos-core.pubkey.asc | sudo pacman-key --add -
-```
-
 Adding a repo inside your /etc/pacman.conf
 
 ```bash
